@@ -58,8 +58,8 @@ sr.reveal('.top-header',{})
     reset: true
   })
   
-  srLeft.reveal('.about-info',{delay: 100})
-  srLeft.reveal('.certify',{delay: 100})
+  srLeft.reveal('.form-control',{delay: 100})
+  srLeft.reveal('.certify-box',{delay: 100})
   /* -- ABOUT SKILLS & FORM BOX -- */
   const srRight = ScrollReveal({
     origin: 'right',
@@ -69,7 +69,7 @@ sr.reveal('.top-header',{})
   })
   
   srRight.reveal('.skills-box',{delay: 100})
-  srRight.reveal('.form-control',{delay: 100})
+  srRight.reveal('.about-info',{delay: 100})
 
   const sections = document.querySelectorAll('section[id]')
   function scrollActive() {
